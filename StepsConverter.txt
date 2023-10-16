@@ -1,0 +1,7 @@
+Conversão de TS para JS
+
+1 - npm init -y
+
+2 - npx tsc (typescript config)
+
+3 - criar script "npm run start" no package.json ("npx tsc && node build/index.js")
