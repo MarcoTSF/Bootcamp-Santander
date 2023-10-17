@@ -1,0 +1,46 @@
+.container__content {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__separator {
+    width: 100%;
+}
+
+.content__cover > img {
+    border: 5px solid rgb(144, 144, 144);
+    border-radius: 8px;
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content__title {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 65%;
+}
+
+.content__description {
+    margin-top: 25px;
+    max-width: 75%;
+}
+
+.content__description > p {
+    color: grey;
+    text-align: justify;
+}
+
+.container__content > a {
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.container__content > a:hover {
+    color: grey;
+}
