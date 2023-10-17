@@ -6,13 +6,13 @@
 .container__small-card-content {
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
 .small-card__photo > img {
     height: 150px;
     width: 150px;
     min-width: 150px;
-    margin-right: 20px;
 }
 
 .small-card__title {
@@ -23,6 +23,8 @@
 
 .small-card__title > h1 > a {
     font-size: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .container__small-card-separator {
